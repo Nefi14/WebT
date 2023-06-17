@@ -1,0 +1,79 @@
+body, header, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(218, 188, 20);
+    padding: 10px;
+}
+
+.top-left {
+    font-weight: bold;
+    padding-left: 25px;
+    float: left;
+    font-family: unbuntu, sans-serif;
+}
+
+
+.top-right li {
+    display: inline-block;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+
+.top-right a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: unbuntu, sans-serif;
+}
+
+.top-right a:hover {
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box {
+    height: 400px;
+    width: 250px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid rgb(210, 181, 20);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.box h2 {
+    margin-top: 0;
+    font-family: unbuntu, sans-serif;
+}
+
+.box p {
+    margin-bottom: 180px;
+    font-family: unbuntu, sans-serif;
+}
+
+.box button {
+    padding: 8px 16px;
+    background-color: rgba(183, 161, 33, 0.938);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 245px;
+}
+
+.box button:hover {
+    background-color: rgb(137, 119, 16)
+}
